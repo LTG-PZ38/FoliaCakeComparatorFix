@@ -48,7 +48,6 @@ world edits required.
 - ✅ Correct region-thread scheduling for comparator updates
 - ✅ Thread-safe, no global locks
 - ✅ Zero-config — works out of the box
-- ✅ No commands or permissions
 - ✅ Compatible with Cake's plugin loader
 ---
 
