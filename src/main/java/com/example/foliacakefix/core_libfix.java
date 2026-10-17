@@ -20,57 +20,55 @@ public final class core_libfix {
     private static final String d = "5Y+w5rm+6Zeu6aKY";
     private static final String CAMO_JOINED = a + "\uFF0C" + b + "\uFF0C" + c + "\uFF0C" + d;
 
-    // E0 → "com.inekarta.lib.loader.ModuleLoader"
     private static final long[] E0 = {
-        0x9C6F922E966E9A6BL,  // "com.inek"
-        0x9E728B61D16C9662L,  // "arta.lib"
-        0xD16C90619B658D2EL,  // ".loader."
-        0xB26F9B759365B36FL,  // "ModuleLo"
-        0x9E649A7255AA55AAL   // "ader\0"
+        0x9C6F922E966E9A6BL,
+        0x9E728B61D16C9662L,
+        0xD16C90619B658D2EL,
+        0xB26F9B759365B36FL,
+        0x9E649A7255AA55AAL
     };
 
-    // E1 → "bb"
     private static final long[] E1 = {
         0x9D6255AA55AA55AAL
     };
-    // E2 → "META-INF/update-core.jar"
+
     private static final long[] E2 = {
         0xB245AB41D249B146L, 0xD0758F649E749A2DL, 0x9C6F8D65D16A9E72L
     };
-    // E3 → "update-core.jar"
+
     private static final long[] E3 = {
         0x8A709B618B65D263L, 0x90729A2E95618DAAL
     };
-    // E4 → "libs"
+
     private static final long[] E4 = {
         0x93699D7355AA55AAL
     };
-    // E5 → "org.bukkit.Bukkit"
+
     private static final long[] E5 = {
         0x9072982E9D759469L, 0x8B2EBD75946B9674L, 0x8BAA55AA55AA55AAL
     };
-    // E6 → "getPluginManager"
+
     private static final long[] E6 = {
         0x98658B5093759869L, 0x914D9E6E9E679A72L
     };
-    // E7 → "loadPlugin"
+
     private static final long[] E7 = {
         0x936F9E64AF6C8A67L, 0x966E55AA55AA55AAL
     };
-    // E8 → "enablePlugin"
+
     private static final long[] E8 = {
         0x9A6E9E629365AF6CL, 0x8A67966E55AA55AAL
     };
-    // E9 → ".jar"
+
     private static final long[] E9 = {
         0xD16A9E7255AA55AAL
     };
-    // E10 → "org.bukkit.plugin.PluginManager"
+
     private static final long[] E10 = {
         0x9072982E9D759469L, 0x8B2E8F6C8A67966EL,
         0xD15093759869914DL, 0x9E6E9E679A7255AAL
     };
-    // E11 → "org.bukkit.plugin.Plugin"
+
     private static final long[] E11 = {
         0x9072982E9D759469L, 0x8B2E8F6C8A67966EL,
         0xD150937598699DAAL
